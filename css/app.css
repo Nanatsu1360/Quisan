@@ -495,9 +495,12 @@ body {
   
   @media (max-width: 576px){
       body {
-          font-size: 9.7px;}
+          font-size: 10.7px;}
       .image__cover img{
-          width: 15.6rem;}
+          width: 19.6rem;}
+          .text__cover h1 {
+            font-size: 3.5em;
+          }
           h1{
               margin-top: 1em;
               font-weight: 190;
@@ -506,7 +509,7 @@ body {
               width: 14.6rem;
   }
   .box__card-primary img{
-      width: 4.063rem;
+      width: 4.2rem;
   }
   .container__whatsapp{
     padding: 14px;
@@ -530,7 +533,7 @@ body {
   }
   
   .text__card-primary{
-      max-width: 40em;
+      max-width: 41em;
       margin: auto;
   }
   
@@ -543,8 +546,8 @@ body {
   
   .text__card-primary h1{
       font-size: var(--texto_size_titulo);
-      font-size: 1em;
-      font-weight: 530;
+      font-size: 1.1em;
+      font-weight: 630;
       color: var(--color_texto-segundario);    
   }
   
@@ -556,7 +559,7 @@ body {
   }
   
   .box__card-primary{
-      max-width: 18.875em;
+      max-width: 19.875em;
       padding: 3em 2em;
       border: 0.6px solid #e6e6e6;
       border-radius: 1em;
